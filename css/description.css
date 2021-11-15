@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 1000px;
+}
+
+nav {
+  margin-top: 50px;
+  height: 75px;
+  /* border-bottom: 2px solid black; */
+  display: flex;
+  margin-bottom: 100px;
+}
+nav a {
+  position: sticky;
+  top: 0;
+  text-align: center;
+  font-size: 1.6rem;
+  text-decoration: none;
+  border-radius: 15px;
+  margin: auto;
+  padding: 10px;
+  border: 4px cyan solid;
+  text-shadow: 2px 3px 3px rgb(173, 245, 4);
+}
+nav a:hover {
+  background-color: rgb(238, 255, 0);
+  padding: 15px;
+  font-size: 1.8rem;
+}
+.top {
+  border-radius: 15px;
+  border: 3px solid black;
+  padding: 20px;
+  text-align: left;
+  /* display: flex; */
+  margin: auto;
+  background-color: rgb(124, 111, 204);
+  min-width: 200px;
+  width: 90%;
+  min-height: 200px;
+  box-shadow: 6px 6px 6px rgb(43, 34, 34);
+}
+.top h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-shadow: 2px 2px 2px white;
+}
+.toptext {
+  margin: 20px;
+  text-align: left;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.2rem;
+  text-shadow: 4px 3px 3px rgb(101, 105, 92);
+}
+.toptext::first-letter {
+  background-color: #fff;
+  font-size: 1.4rem;
+}
+.container {
+  min-width: 90%;
+  min-height: 400px;
+  display: flex;
+  margin: auto;
+  margin-top: 100px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.div {
+  border-radius: 20px;
+  margin: 20px;
+  background-color: yellow;
+  width: 300px;
+  height: 460px;
+}
+.div img {
+  margin: auto;
+  display: flex;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+.div img:hover {
+  border: 2px solid black;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+.div p {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: 4px 4px 4px rgb(101, 105, 92);
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.div button {
+  font-size: 1.6;
+  display: flex;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.div a {
+  text-align: center;
+  font-size: 1.6rem;
+  text-decoration: none;
+  border-radius: 15px;
+  margin: auto;
+  padding: 10px;
+  text-shadow: 2px 3px 3px rgb(173, 245, 4);
+}
+.div a:hover {
+  font-size: 1.6rem;
+  border: 4px cyan solid;
+}
+text-shadow: 2px 3px 3px rgb(173, 245, 4);
+@media only screen and (max-width: 400px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+  }
+}
