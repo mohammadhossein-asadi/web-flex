@@ -31,3 +31,50 @@ nav a:hover {
   padding: 15px;
   font-size: 1.8rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 280px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+  }
+}

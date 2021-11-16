@@ -1,12 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  height: 1000px;
-}
-
 nav {
   margin-top: 50px;
   height: 75px;
@@ -14,6 +5,7 @@ nav {
   display: flex;
   margin-bottom: 100px;
 }
+
 nav a {
   position: sticky;
   top: 0;
@@ -30,4 +22,103 @@ nav a:hover {
   background-color: rgb(238, 255, 0);
   padding: 15px;
   font-size: 1.8rem;
+}
+
+.container {
+  min-width: 90%;
+  min-height: 400px;
+  display: flex;
+  margin: auto;
+  margin-top: 100px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.div {
+  border-radius: 20px;
+  margin: 20px;
+  background-color: yellow;
+  width: 210px;
+  height: 375px;
+}
+.div img {
+  margin: auto;
+  display: flex;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+.div img:hover {
+  border: 2px solid black;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+.div p {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: 4px 4px 4px rgb(101, 105, 92);
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.div button {
+  font-size: 1.6;
+  display: flex;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.div a {
+  text-align: center;
+  font-size: 1.6rem;
+  text-decoration: none;
+  border-radius: 15px;
+  margin: auto;
+  padding: 10px;
+  text-shadow: 2px 3px 3px rgb(173, 245, 4);
+}
+.div a:hover {
+  font-size: 1.6rem;
+  border: 4px cyan solid;
+}
+
+@media only screen and (max-width: 400px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+  }
+}
+.sec {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-shadow: 2px 2px 2px white;
+  width: 70%;
+  min-height: 200px;
+  min-width: 270px;
+  margin: auto;
+  text-align: left;
+  padding: 20px;
+  border: 2px black solid;
+  border-radius: 20px;
+   background-color: rgb(124, 111, 204);
+   box-shadow: 6px 6px 6px rgb(43, 34, 34);
+  flex-wrap: wrap;
+  line-height: 25px;
+}
+.hone {
+  display: flex;
+  text-align: start;
+  align-items: center;
+  /* margin-left: 50px; */
+}
+.olbottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-left: black 3px solid;
+  margin-left: 150px;
+  /* min-width: 100px; */
+  /* min-height: 100px; */
 }
