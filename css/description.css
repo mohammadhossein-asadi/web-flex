@@ -100,6 +100,7 @@ nav a:hover {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  box-shadow: 8px 8px 8px rgb(43, 34, 34);
 }
 .div img {
   margin: auto;
@@ -110,7 +111,7 @@ nav a:hover {
   margin-top: 40px;
 }
 .div img:hover {
-  border: 4px solid rgb(78, 247, 0);
+  border: 4px rgb(99, 3, 99) solid;
   width: 160px;
   height: 160px;
   border-radius: 50%;
@@ -171,14 +172,28 @@ footer {
   text-shadow: 6px 6px 6px rgb(32, 31, 31);
 }
 footer span {
-  font-size: 1rem;
+  font-size: 1.4rem;
   vertical-align: middle;
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+  color: black;
 }
+/* footer span,i:hover{
+color: #12c2e9;
+} */
+
 footer span a {
   color: black;
   text-decoration: none;
+  
 }
 footer span a:hover {
+  color: #12c2e9;
+}
+.foot{
+  width: 40%;
+}
+.fab:hover{
   color: #12c2e9;
 }
 @media only screen and (max-width: 400px) {
