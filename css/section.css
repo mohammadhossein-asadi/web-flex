@@ -105,16 +105,16 @@ nav a:hover {
   border: 4px cyan solid;
 }
 .item1 {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPTWWuOu4fM_q1dYfbURmE-nJlpyOU_YYL6g&usqp=CAU");
+  background-image: url("../img/11.jpg");
 }
 .item2 {
-  background-image: url("https://static.vecteezy.com/system/resources/previews/001/991/230/original/neon-photo-camera-sign-photostudio-neon-banner-luminous-signboard-camera-night-advertisement-neon-cam-pink-neon-light-on-dark-purple-background-illustration-eps10-vector.jpg");
+  background-image: url("../img/12.png");
 }
 .item3 {
-  background-image: url("https://media.istockphoto.com/vectors/english-neon-label-vector-id1159605947?k=20&m=1159605947&s=170667a&w=0&h=eWQ6n2M3qKmgwiiy8S7DGIRSzeKZI_dQEG_jkzboyYQ=");
+  background-image: url("../img/13.jpg");
 }
 .item4 {
-  background-image: url("https://static.vecteezy.com/system/resources/previews/002/158/570/non_2x/feedback-neon-icon-elements-of-education-set-simple-icon-for-websites-web-design-mobile-app-info-graphics-isolated-on-brick-wall-vector.jpg");
+  background-image: url("../img/14.png");
 }
 
 .table {

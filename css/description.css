@@ -150,13 +150,13 @@ nav a:hover {
   border: 4px cyan solid;
 }
 .item1 {
-  background-image: url("https://thumbs.dreamstime.com/b/diamond-neon-sign-vector-illustration-fashion-promotion-134701427.jpg");
+  background-image: url("../img/4.jpg");
 }
 .item2 {
-  background-image: url("https://media.istockphoto.com/vectors/glowing-circle-with-neon-lights-on-dark-brick-wall-background-3d-neon-vector-id1143341754?k=20&m=1143341754&s=170667a&w=0&h=AhesVvKP1iO_xDHcsGkn1HOi5BFTHkzfEJGRwK1mzt0=");
+  background-image: url("../img/5.jpg");
 }
 .item3 {
-  background-image: url("https://thumbs.dreamstime.com/b/science-neon-label-vector-illustration-education-promotion-152227725.jpg");
+  background-image: url("../img/6.jpg");
 }
 footer {
   margin-top: 100px;
